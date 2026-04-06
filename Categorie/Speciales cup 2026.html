@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Maillots</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Base/style.css">
+</head>
+<body>
+<script src="script.js" defer></script>
+<!-- HEADER (IDENTIQUE) -->
+<header class="header">
+  
+  <div class="logo">
+    <img src="/Images/Logo.png" alt="logo">
+    <span>Mon Maillot de Foot</span>
+  </div>
+
+  <nav class="nav">
+    <a href="/Base/Index.html">Accueil</a>
+    <a href="maillots.html">Maillots</a>
+    <a href="/Categorie/Speciales cup 2026.html">Spéciales cup 2026</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+
+  <div class="actions">
+    <!-- Panier PRO (SVG) -->
+    <div class="cart">
+      <svg viewBox="0 0 24 24" width="24">
+        <path d="M7 4h-2l-1 2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 
+        0 1.1.9 2 2 2h10v-2h-9.42c-.14 0-.25-.11-.25-.25l.03-.12 
+        .9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 
+        0-.55-.45-1-1-1h-14.31l-.94-2zm3 16c-1.1 0-2 .9-2 
+        2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm10 
+        0c-1.1 0-2 .9-2 2s.9 2 2 
+        2 2-.9 2-2-.9-2-2-2z"/>
+      </svg>
+      <span class="cart-count">0</span>
+    </div>
+  </div>
+
+</header>
+
+
+<div class="cart-drawer" id="cartDrawer">
+  <div class="cart-header">
+    <h2>Mon panier</h2>
+    <span id="closeCart">&times;</span>
+  </div>
+
+  <div class="cart-items" id="cartItems"></div>
+
+  <div class="cart-footer">
+    <p>Total: <span id="cartTotal">0€</span></p>
+  </div>
+  <button onclick="window.location.href='/base/checkout.html'">
+  💳 Passer au paiement
+</button>
+</div>
+
+<div class="overlay" id="overlay"></div>
+<!-- SECTION MAILLOTS -->
+<section class="products">
+  <h2>⚽ Tous nos maillots</h2>
+
+  <div class="grid">
+
+        <div class="card">
+      <a href="/Page produit/Maillot brazil 20265/produit-brazil-2026.html">
+      <img src="/Images/Maillot first page/Maillot brezil.png" alt="Maillot brazil">
+      </a>
+      <h3>
+        <a href="/Page produit/Maillot brazil 20265/produit-brazil-2026.html">Maillot Brazil 2026</a>
+      </h3>
+      <p>19.99€</p>
+
+    </div>
+
+    <div class="card">
+      <a href="/Page produit/Maillot Portugal 2026/produit-portugal-2026.html">
+      <img src="/Images/Maillot first page/92f17765.png " alt="">
+      </a>
+      <h3>
+        <a href="/Page produit/Maillot Portugal 2026/produit-portugal-2026.html">Maillot Portugal 2026 </a>
+      </h3>
+      <p>16.99€</p>
+
+    </div>
+
+    <div class="card">
+      <a href="/Page produit/Maillot Mexique 2026/produit-Mexique-2026.html">
+      <img src="/Images/Maillot first page/12-removebg-preview.png" alt="">
+      </a>
+      <h3><a href="/Page produit/Maillot Mexique 2026/produit-Mexique-2026.html">Maillot Mexique 2026</a>
+      </h3>
+      <p>16.99€</p>
+
+    </div>
+
+    <div class="card">
+      <a href="/Page produit/Maillot Colombie 2026/produit-Mexique-2026.html">
+      <img src="/Page produit/Maillot Colombie 2026/Face-removebg-preview.png" alt="Maillot brazil">
+      </a>
+      <h3>
+        <a href="/Page produit/Maillot brazil 20265/produit-brazil-2026.html">Maillot Colombie 2026</a>
+      </h3>
+      <p>19.99€</p>
+  
+
+    </div>
+     
+      <div class="card">
+      <a href="/Page produit/Maillot Japon 2026/produit-Japon-2026.html">
+      <img src="/Page produit/Maillot Japon 2026/japon-removebg-preview.png" alt="Maillot brazil">
+      </a>
+      <h3>
+        <a href="/Page produit/Maillot Japon 2026/produit-Japon-2026.html">Maillot Japon 2026</a>
+      </h3>
+      <p>19.99€</p>
+  
+
+    </div>
+
+        <div class="card">
+      <a href="/Page produit/Maillot Japon exterieur/produit-Japon-2026.html">
+      <img src="/Page produit/Maillot Japon exterieur/52703970-removebg-preview.png " alt="">
+      </a>
+      <h3>
+        <a href="/Page produit/Maillot Japon exterieur/produit-Japon-2026.html">Maillot Japon Exterieur 2026 </a>
+      </h3>
+      <p>16.99€</p>
+
+      </div>
+
+        <div class="card">
+      <a href="/Page produit/Maillot Allemagne 2026/produit-Mexique-2026.html">
+      <img src="/Page produit/Maillot Allemagne 2026/allemagne-removebg-preview.png " alt="">
+      </a>
+      <h3>
+        <a href="/Page produit/Maillot Japon exterieur/produit-Japon-2026.html">Maillot Allemagne 2026 </a>
+      </h3>
+      <p>16.99€</p>
+
+      </div>
+
+        <div class="card">
+      <a href="/Page produit/Maillot Allemagne exterieur 2026/produit-Allemagne-ext-2026.html">
+      <img src="/Page produit\Maillot Allemagne exterieur 2026\c2b05f1a-removebg-preview.png " alt="">
+      </a>
+      <h3>
+        <a href="/Page produit/Maillot Allemagne exterieur 2026/produit-Allemagne-ext-2026.html">Maillot Allemagne Exterieur 2026 </a>
+      </h3>
+      <p>16.99€</p>
+
+      </div>
+
+        <div class="card">
+      <a href="/Page produit\Maillot espagne 2026\produit-Allemagne-ext-2026.html">
+      <img src="/Page produit\Maillot espagne 2026\d17e732f-removebg-preview.png " alt="">
+      </a>
+      <h3>
+        <a href="/Page produit\Maillot espagne 2026\produit-Allemagne-ext-2026.html">Maillot Espagne 2026 </a>
+      </h3>
+      <p>16.99€</p>
+
+      
+    </div>
+
+<div class="card">
+      <a href="/Page produit\Maillot espagne exterieur 2026\produit-Allemagne-ext-2026.html">
+      <img src="/Page produit\Maillot espagne exterieur 2026\c9de1a98-removebg-preview.png " alt="">
+      </a>
+      <h3>
+        <a href="/Page produit\Maillot espagne exterieur 2026\produit-Allemagne-ext-2026.html">Maillot Espagne Exterieur2026 </a>
+      </h3>
+      <p>16.99€</p>
+
+    </div>
+
+<div class="card">
+      <a href="/Page produit\Maillot angleterre 2026\produit-brazil-2026.html">
+      <img src="/Page produit\Maillot angleterre 2026\160bdec6-removebg-preview.png " alt="">
+      </a>
+      <h3>
+        <a href="/Page produit\Maillot angleterre 2026\produit-brazil-2026.html">Maillot Espagne Exterieur2026 </a>
+      </h3>
+      <p>19.99€</p>
+
+    </div>
+
+    <div class="card">
+      <a href="/Page produit\Maillot Argentine exterieur 2026\produit-brazil-2026.html">
+      <img src="/Page produit\Maillot Argentine exterieur 2026\argentine-removebg-preview.png " alt="">
+      </a>
+      <h3>
+        <a href="/Page produit\Maillot Argentine exterieur 2026\produit-brazil-2026.html">Maillot Argentine Exterieur2026 </a>
+      </h3>
+      <p>19.99€</p>
+
+    </div>
+
+        <div class="card">
+      <a href="/Page produit\Maillot France 2026\produit-Allemagne-ext-2026.html">
+      <img src="/Page produit\Maillot France 2026\e38e1487-removebg-preview.png " alt="">
+      </a>
+      <h3>
+        <a href="/Page produit\Maillot France 2026\produit-Allemagne-ext-2026.html">Maillot Argentine Exterieur2026 </a>
+      </h3>
+      <p>19.99€</p>
+
+    </div>
+
+    </div>
+    
+    </div>
+
+     </div>
+
+
+    <!-- AJOUTE AUTANT DE MAILLOTS QUE TU VEUX 🔥 -->
+
+  </div>
+</section>
+
+<script src="/Base/Scipt.js"></script>
+
+<footer>
+  <p>© 2026 Mon Maillot de Foot</p>
+</footer>
+
+</body>
+</html>
+
